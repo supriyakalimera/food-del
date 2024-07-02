@@ -137,7 +137,7 @@
 
 .header {
    
-    background: url('C:\Users\supri\Downloads\uvosNjsSnKwjRXZyHrvkZb\food-del\frontend\src\assets\fish1.png') no-repeat center center;
+    background: url('../assets/fish1.png') no-repeat center center;
     background-size: cover;
     background-clip: padding-box;
     border-radius: 20px;
