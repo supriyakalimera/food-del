@@ -1,4 +1,12 @@
 
+@keyframes backgroundMove {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
 .header {
     height: 65vh; /* Adjust the height */
     width: 80vw; /* Set the width to full viewport width */
@@ -9,7 +17,7 @@
     background-clip: padding-box; /* Include border radius */
     border-radius: 20px; /* Adjust the border-radius for rounded corners */
     position: relative;
-    animation: backgroundMove 30s linear infinite;
+    animation: backgroundMove 20s linear infinite;
 }
 
 .header-contents{
@@ -126,21 +134,4 @@
     }
 }
 
-@keyframes backgroundMove {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 100% 100%;
-    }
-}
 
-.header {
-   
-    background: url('/src/assets/fish_1.png') no-repeat center center;
-    background-size: cover;
-    background-clip: padding-box;
-    border-radius: 20px;
-    position: relative;
-    animation: backgroundMove 30s linear infinite;
-}
