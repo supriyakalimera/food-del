@@ -3,7 +3,7 @@ import basket_icon from './basket_icon.png'
 //import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import snap from './snap.png'
-import fish1 from './fish1.png'
+import fish_1 from './fish_1.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -67,7 +67,7 @@ import un_checked from './un_checked.png'
 export const assets = {
     //logo,
     snap,
-    fish1,
+    fish_1,
     basket_icon,
     //header_img,
     search_icon,
